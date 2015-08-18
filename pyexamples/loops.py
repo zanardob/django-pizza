@@ -10,4 +10,4 @@ orders = [
 ]
 
 for order in orders:
-    print(order['name'], order['flavor'])
+    print('Name: {0}, Flavor: {1}'.format(order['name'], order['flavor']))
