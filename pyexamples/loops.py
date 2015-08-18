@@ -4,10 +4,12 @@ orders = [
         'flavor': 'pepperoni'
     },
     {
-        'name': 'Marco',
-        'flavor': 'ham'
+        'name': 'Marcolino',
+        'flavor': 'barbecue'
     }
 ]
 
 for order in orders:
-    print('Name: {0}, Flavor: {1}'.format(order['name'], order['flavor']))
+    s = 'Name: {0}, Flavor: {1}'
+    print(s.format(order['name'], order['flavor']))
+
